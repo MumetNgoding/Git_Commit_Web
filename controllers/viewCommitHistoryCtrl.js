@@ -2,8 +2,8 @@ var app = angular.module('app');
 
 app.controller('viewCommitHistoryCtrl', function($scope, viewCommitHistoryService) {
     var commit = {
-        gitUser: "Priyank1504",
-        gitProjectName: "Git_Commit_Web",
+        gitUser: "MumetNgoding",
+        gitProjectName: "BrynKernel-AOSP",
         commitList: []
     };
     $scope.commit = angular.copy(commit);
