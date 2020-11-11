@@ -34,7 +34,7 @@
     <div ng-controller="viewCommitHistoryCtrl">
         <div class="container well well-lg">
             <form class="commitHistoryForm" id="commitHistoryForm" name="commitHistoryForm" novalidate>
-                <div class="row">
+<!--                 <div class="row"> -->
 <!--                     <div class="col-xs-6">
                         <label for="gitUserName">Enter Git UserName:</label>
                         <input type="text" class="form-control" placeholder="Github username" name="gitUserName" ng-model="commit.gitUser" ng-class="{'txtbxReq': (commitHistoryForm.gitUserName.$error.required && (commitHistoryForm.gitUserName.$touched || commitHistoryForm.$submitted))}" ng-required="true">
@@ -43,15 +43,15 @@
                         <label for="gitProjectName">Enter Git Project Name:</label>
                         <input type="text" class="form-control" placeholder="Github project name" name="gitProjectName" ng-model="commit.gitProjectName" ng-class="{'txtbxReq': (commitHistoryForm.gitProjectName.$error.required && (commitHistoryForm.gitProjectName.$touched || commitHistoryForm.$submitted))}" ng-required="true">
                     </div> -->
-                </div>
+<!--                 </div> -->
                 <br />
-                <div class="row">
+<!--                 <div class="row"> -->
 <!--                     <div class="col-xs-12">
                         <input type="button" class="btn btn-default float-right" value="Reset" ng-click="refresh()">
                         <input type="button" class="btn btn-default float-right mrgRight5" value="Default" ng-click="default()">
                         <input type="submit" class="btn btn-primary float-right mrgRight5" value="View Commits" ng-click="getCommitHistory()">
                     </div> -->
-                </div>
+<!--                 </div> -->
             </form>
         </div>
         <div class="container well" ng-if="commit.commitList.length>0">
